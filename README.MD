@@ -1,5 +1,5 @@
 # Prerequisites: 
-Python 3, pipenv.
+Python 3
 
 # Installation:
 Create a directory or clone this git into a directory
