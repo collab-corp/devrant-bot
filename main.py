@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
 
 from chatterbot import ChatBot
-chatbot = ChatBot("AiMee")
-
-response = chatbot.get_response("Good morning!")
-print(response)
-
-from chatterbot import ChatBot
 
 chatbot = ChatBot('natsuki-bot')
 
+# initial message to user, played once
+print("Natsuki> Natsuki bot here")
+
 # Get a response to an input statement
-chatbot.get_response("Hello, how are you today?")
+response = chatbot.get_response(
+    input())
+
+print("Natsuki> ", response)
+
